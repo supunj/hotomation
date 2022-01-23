@@ -1,0 +1,100 @@
+home:
+    interval: 5 # Run every this number of seconds
+    levels:
+        - level: 0
+          rooms:
+            - room: porch
+              name: "Porch"
+              devices:
+                  - device: 1
+                    type: switch
+                    name: "BASICR2"
+                    brand: sonoff
+                    version: 
+                    id: 
+                    key: 
+                    ip: 
+                    # switches:
+                    #     - switch: 1
+                    #       on: 18:00
+                    #       off: 5:00
+                    #       random: false
+                  - device: 2
+                    type: switch
+                    name: "BASICR2"
+                    brand: sonoff
+                    version: 
+                    id: 
+                    key: 
+                    ip: 
+                    # switches:
+                    #     - switch: 1
+                    #       on: 18:00
+                    #       off: 5:00
+                    #       random: false
+            - room: office
+              name: "Office Room"
+              devices:
+                  - device: 1
+                    type: switch
+                    name: "3 Gang Light Switch"
+                    brand: tuya
+                    version: 3.3
+                    id: bf58554e8ad68746791nzs
+                    key: 3bc16bb9028cd949
+                    ip: 192.168.50.215
+                    switches:
+                        # - switch: 1
+                        #   random: false
+                        - switch: 2
+                          random: false
+                          on: 18:00
+                          off: 5:00
+                        # - switch: 3
+                        #   random: false
+            - room: kitchen
+              name: "Kitchen"
+              devices:
+                  - device: 1
+                    type: switch
+                    name: "3 Gang Light Switch"
+                    brand: tuya
+                    version: 3.3
+                    id: bff7b7a6800998a1e3kmiu
+                    key: 8215848e8eed3249
+                    ip: 192.168.50.211
+                    # switches:
+                    #     - switch: 1
+                    #       random: false
+                    #     - switch: 2
+                    #       random: false
+                    #     - switch: 3
+                    #       random: false
+            - room: main_bath
+              name: "Main Bathroom"
+              devices:
+                  - device: 1
+                    type: switch
+                    name: "3 Gang Light Switch"
+                    brand: tuya
+                    version: 3.3
+                    id: bf9f76bf5744be8f3fmyqh
+                    key: a68702d4c640fe85
+                    ip: 192.168.50.210
+                    # switches:
+                    #     - switch: 1
+                    #       random: false
+                    #     - switch: 2
+                    #       random: false
+            - room: putha
+              name: "Putha's Room"
+              devices:
+                  - device: 1
+                    type: rgb_light
+                    name: "RGB Light Bulb"
+                    brand: tuya
+                    version: 3.3
+                    id: 051635488cce4ef312ce
+                    key: cb88384a9d7a314c
+                    ip: 192.168.50.212
+        - level: 1
